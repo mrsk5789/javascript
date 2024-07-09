@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a=10;
+
+        if(a>20) {
+            alert("a가 크다");
+        } else {
+            alert("a가 작다");
+        }
+
+        var engscore=77;
+
+      //비교연산자
+
+        // if(engscore>=90) {
+        //     alert("A");
+        // } else if(engscore>=80) {
+        //     alert("B");
+        // } else if(engscore>=70) { 
+        //     alert("C");
+        // } else if(engscore>=60) { 
+        //     alert("D");
+        // } else {
+        //     alert("F");
+        // }
+
+
+        // if(engscore>=90) {
+        //     alert("A");
+        // } else if(engscore>=80&&engscore<=89) {
+        //     alert("B");
+        // } else if(engscore>=70&&engscore<=79) { 
+        //     alert("C");
+        // } else if(engscore>=60&&engscore<=69) { 
+        //     alert("D");
+        // } else {
+        //     alert("F");
+        // }    
+
+
+        // 90점 이상 a
+        // 100-97 a+
+        // 96-94  a0
+        // 93-90  a-
+        if (engscore>=90) {
+            if(engscore>=97){
+                alert("A+");
+            }else if(engscore>=94 && engscore<=96)  {
+                alert("A0");
+            }else if(engscore>=90 && engscore<=93) {
+                alert("A-");
+            }
+        } else if (engscore>=80) {
+            if(engscore>=87){
+                alert("B+");
+            }else if(engscore>=84 && engscore<=86)  {
+                alert("B0");
+            }else if(engscore>=80 && engscore<=83) {
+                alert("B-");
+            }
+        }  else if (engscore>=70) {
+            if(engscore>=77){
+                alert("C+");
+            }else if(engscore>=74 && engscore<=76)  {
+                alert("C0");
+            }else if(engscore>=70 && engscore<=73) {
+                alert("C-");
+            }
+        }  else if (engscore>=60) {
+            if(engscore>=67){
+                alert("D+");
+            }else if(engscore>=64 && engscore<=66)  {
+                alert("D0");
+            }else if(engscore>=60 && engscore<=63) {
+                alert("D-");
+            }
+        }  else {
+                alert("F");
+        }
+
+
+        // switch case default
+        
+
+        
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
