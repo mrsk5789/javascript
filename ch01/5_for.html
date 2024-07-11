@@ -102,6 +102,22 @@
         }
     }
 
+    let star3 = "";
+    var empty2 = "";
+    for(let i=1; i<=5; i++){
+        for(let j=1; j<=i; j++){
+            star3 += "*";
+        }
+        for(let k=(5-i); k>=1; k--){
+            empty2 += " ";
+            // console.log(i + " : " + j + " : " + k);
+        }
+        console.log(empty2 + star3);
+        // console.log(star2);
+        star3 = "";
+        empty2 = "";
+    }
+
 
 
     </script>
